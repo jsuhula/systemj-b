@@ -15,6 +15,15 @@ if(isset($_POST['submit'])){
 
     if(!empty($direccionCliente)){
         $direccionCliente = trim($direccionCliente);
+        $direccionCliente = htmlspecialchars($direccionCliente);
+    }else{
+        $errores .= 'Ingresa la direccion <br/>';
+    }
+
+    if(empty($errores)){
+        $realizado = true;
+    }else{
+        $realizado = false;
     }
 }
     require 'views/index-view.php';

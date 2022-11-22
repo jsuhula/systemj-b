@@ -13,90 +13,129 @@ body {
     background-color: #F2F2F2;
 }
 
-.box{
-    padding: 2em 1em;
-    max-width: 80%;
-    height: 40em;
+.cabecero {
     background-color: white;
-    box-shadow: 0 0 0.18em grey;
-    border-top: 0.18em solid #536dfe;
+    max-width: 90%;
+    height: auto;
     margin: auto;
     overflow: auto;
+    border-top: 0.18em solid #536dfe;
+    border-left: 0.05em solid grey;
+    border-right: 0.05em solid grey;
+    border-radius: 0.3em 0.3em 0 0;
 }
-.center-text{
+
+.contenedor {
+    background-color: white;
+    max-width: 90%;
+    height: auto;
+    margin: auto;
+    overflow: auto;
+    border-radius: 0 0 0.3em 0.3em;
+    border-left: 0.05em solid grey;
+    border-right: 0.05em solid grey;
+    border-bottom: 0.18em solid #536dfe;
+}
+
+.objetos-contenedor {
+    max-width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 2em 0;
+}
+
+.texto-centrado {
     text-align: center;
 }
 
-.encabezado{
+.encabezado-pagina {
     margin: auto;
     max-width: 100%;
 }
 
-.mensaje{
+.mensaje-encabezado {
     line-height: 0.2em;
     text-align: center;
     padding-bottom: 2em;
 }
 
-.orden {
-    padding-top: 4em;
+.factura {
     max-width: 40em;
-    float: left;
+    box-shadow: 0 0.2em 0.2em 0 grey;
+    border-top: 0.18em solid #536dfe;
+    background-color: #f2f2f2;
+    border-radius: 0.3em;
+    margin: auto;
 }
 
-form {
-    border-top: 0.18em solid #536dfe;
+.factura form {
     padding: 1em 1em 1em 1em;
     margin: auto;
-    background-color: #F2F2F2;
-    box-shadow: 0 0 0.18em grey;
-    height: 20em;
+    height: 25em;
     overflow: auto;
 }
 
-.input-client {
+.producto {
+    margin: 1em 0 0 1em;
+    max-width: 20em;
+    float: right;
+    box-shadow: 0 0.2em 0.2em 0 grey;
+    border-top: 0.18em solid #536dfe;
+    background-color: #f2f2f2;
+    border-radius: 0.3em;
+    margin: auto;
+}
+
+.producto form{
+    padding: 1em 1em 1em 1em;
+    margin: auto;
+    height: 25em;
+    overflow: auto;
+}
+
+.entrada-cliente {
     width: 100%;
-    max-width: 30%;
     color: #000000;
     margin: 1em;
 }
 
-.datos-cliente{
+.datos-cliente {
     display: flex;
     padding: 0 0 0 1em;
     margin: auto;
 }
 
-.detallado{
+.detalle-factura {
     padding: 1em 0em 3em 0em;
 }
 
-.lista-productos{
+.lista-productos {
     width: 100%;
     text-align: center;
 }
-.head-table{
+
+.cabecera-tabla {
     padding-bottom: 1em;
     background-color: #95ceff;
 }
 
-.body-table{
+.cuerpo-tabla {
     background-color: #defdff;
 }
 
-.foot-table th{
-    background-color: #95ceff;;
+.pie-tabla th {
+    background-color: #95ceff;
+    ;
 }
 
-.realizar{
+.realizar {
     display: flex;
     align-items: center;
     float: right;
     padding: 0 1em 0 0;
 }
 
-
-.boton-realizar input{
+.boton-realizar input {
     background-color: #53bcfe;
     float: right;
     color: white;
@@ -105,13 +144,14 @@ form {
     border: 0em;
 }
 
-.boton-realizar input:hover{
+.boton-realizar input:hover {
     background-color: #ccd4ff;
     color: #000000;
     cursor: pointer;
 }
 
-.error{
+.error {
     color: rgb(131, 131, 131);
     padding-right: 1em;
+    text-align: center;
 }
