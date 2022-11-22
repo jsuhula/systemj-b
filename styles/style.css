@@ -1,0 +1,117 @@
+html {
+    font-size: 62.5%;
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.6em;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F2F2F2;
+}
+
+.box{
+    padding: 2em 1em;
+    max-width: 80%;
+    height: 40em;
+    background-color: white;
+    box-shadow: 0 0 0.18em grey;
+    border-top: 0.18em solid #536dfe;
+    margin: auto;
+    overflow: auto;
+}
+.center-text{
+    text-align: center;
+}
+
+.encabezado{
+    margin: auto;
+    max-width: 100%;
+}
+
+.mensaje{
+    line-height: 0.2em;
+    text-align: center;
+    padding-bottom: 2em;
+}
+
+.orden {
+    padding-top: 4em;
+    max-width: 40em;
+    float: left;
+}
+
+form {
+    border-top: 0.18em solid #536dfe;
+    padding: 1em 1em 1em 1em;
+    margin: auto;
+    background-color: #F2F2F2;
+    box-shadow: 0 0 0.18em grey;
+    height: 20em;
+    overflow: auto;
+}
+
+.input-client {
+    width: 100%;
+    max-width: 30%;
+    color: #000000;
+    margin: 1em;
+}
+
+.datos-cliente{
+    display: flex;
+    padding: 0 0 0 1em;
+    margin: auto;
+}
+
+.detallado{
+    padding: 1em 0em 3em 0em;
+}
+
+.lista-productos{
+    width: 100%;
+    text-align: center;
+}
+.head-table{
+    padding-bottom: 1em;
+    background-color: #95ceff;
+}
+
+.body-table{
+    background-color: #defdff;
+}
+
+.foot-table th{
+    background-color: #95ceff;;
+}
+
+.realizar{
+    display: flex;
+    align-items: center;
+    float: right;
+    padding: 0 1em 0 0;
+}
+
+
+.boton-realizar input{
+    background-color: #53bcfe;
+    float: right;
+    color: white;
+    padding: 0.9em;
+    border-radius: 0.8em;
+    border: 0em;
+}
+
+.boton-realizar input:hover{
+    background-color: #ccd4ff;
+    color: #000000;
+    cursor: pointer;
+}
+
+.error{
+    color: rgb(131, 131, 131);
+    padding-right: 1em;
+}
