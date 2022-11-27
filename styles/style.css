@@ -48,9 +48,8 @@ body {
     text-align: center;
 }
 
-.encabezado-pagina {
-    margin: auto;
-    max-width: 100%;
+.buscar{
+    margin: 2em 0 0 0;
 }
 
 .mensaje-encabezado {
@@ -61,6 +60,8 @@ body {
 
 .factura {
     max-width: 40em;
+    min-width: 30em;
+    height: 25em;
     box-shadow: 0 0.2em 0.2em 0 grey;
     border-top: 0.18em solid #536dfe;
     background-color: #f2f2f2;
@@ -75,10 +76,46 @@ body {
     overflow: auto;
 }
 
-.producto {
-    margin: 1em 0 0 1em;
-    max-width: 20em;
-    float: right;
+.entrada-cliente{
+    width: 100%;
+    color: #000000;
+}
+
+.datos-cliente label{
+    margin-right: 0.5em;
+}
+
+.datos-cliente {
+    display: flex;
+    align-items: center;
+}
+
+.detallado {
+    padding: 1em 0em 1em 0em;
+}
+
+.detallado table {
+    width: 100%;
+    text-align: center;
+}
+
+.nombre-columna{
+    padding-bottom: 1em;
+    background-color: #95ceff;
+}
+
+.cuerpo-tabla {
+    background-color: #98b9ff7c;
+}
+
+.pie-tabla th {
+    background-color: #95ceff;
+}
+
+.productos {
+    max-width: 40em;
+    min-width: 30em;
+    height: 25em;
     box-shadow: 0 0.2em 0.2em 0 grey;
     border-top: 0.18em solid #536dfe;
     background-color: #f2f2f2;
@@ -86,46 +123,9 @@ body {
     margin: auto;
 }
 
-.producto form{
-    padding: 1em 1em 1em 1em;
+.productos table{
+    padding: 1em;
     margin: auto;
-    height: 25em;
-    overflow: auto;
-}
-
-.entrada-cliente {
-    width: 100%;
-    color: #000000;
-    margin: 1em;
-}
-
-.datos-cliente {
-    display: flex;
-    padding: 0 0 0 1em;
-    margin: auto;
-}
-
-.detalle-factura {
-    padding: 1em 0em 3em 0em;
-}
-
-.lista-productos {
-    width: 100%;
-    text-align: center;
-}
-
-.cabecera-tabla {
-    padding-bottom: 1em;
-    background-color: #95ceff;
-}
-
-.cuerpo-tabla {
-    background-color: #defdff;
-}
-
-.pie-tabla th {
-    background-color: #95ceff;
-    ;
 }
 
 .realizar {
@@ -136,7 +136,7 @@ body {
 }
 
 .boton-realizar input {
-    background-color: #53bcfe;
+    background-color: #95ceff;
     float: right;
     color: white;
     padding: 0.9em;
