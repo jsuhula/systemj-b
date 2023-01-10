@@ -54,6 +54,10 @@ body {
     text-align: center;
 }
 
+.texto-derecho{
+    text-align: right;
+}
+
 .factura table, label, input{
     font-size: 1em;
 }
@@ -88,12 +92,11 @@ body {
     border-bottom-style:ridge;
     width: 8em;
     margin: auto;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: #f2f2f2;
 }
 
 .datos-cliente input:focus{
     border-radius: 0.5em;
-    background-color: #b3ffcd32;
 }
 
 
@@ -166,7 +169,7 @@ body {
 }
 
 .realizar {
-    padding: 1em 0;
+    padding: 2em 0;
     display: flex;
     justify-content: center;
 }
@@ -259,4 +262,17 @@ body {
     left: 0;
     z-index: -1;
     display: flex;
+}
+
+.busqueda{
+    padding: 0 0 1em;
+}
+
+.busqueda input::-ms-fill-upper{
+    color: green;
+}
+
+.head-factura{
+    padding-top: 1em;
+    line-height: 0.1em;
 }
